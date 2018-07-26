@@ -1,5 +1,4 @@
 import Vue from 'vue'
 
-if (process.browser) {
-  Vue.use(require('vue-perfect-scrollbar'))
-}
+import VuePerfectScrollbar from 'vue-perfect-scrollbar'
+Vue.use(VuePerfectScrollbar)
