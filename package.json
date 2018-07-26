@@ -1,9 +1,10 @@
 {
-  "name": "coreui-free-nuxt-admin-template",
+  "name": "@chatbox-inc/coreui-free-nuxt-admin-template",
   "version": "1.0.0",
-  "description": "Nuxt.js project",
-  "author": "Kazuki Tobita <kazukiti201@gmail.com>",
-  "private": true,
+  "description": "Open Source Bootstrap Admin Template",
+  "author": "chatbox.inc",
+  "copyright": "Copyright 2018 chatbox.inc",
+  "license": "MIT",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
