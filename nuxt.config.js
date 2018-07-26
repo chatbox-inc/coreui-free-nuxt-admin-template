@@ -33,7 +33,10 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
-    }
+    },
+    vendor: [
+      'vue-perfect-scrollbar'
+    ]
   },
   plugins: [
     '~/plugins/vue-chartjs',
