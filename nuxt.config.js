@@ -13,6 +13,13 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  css: [
+    'node_modules/font-awesome/scss/font-awesome.scss',
+    'node_modules/simple-line-icons/scss/simple-line-icons.scss',
+    'node_modules/flag-icon-css/css/flag-icon.min.css',
+    'node_modules/bootstrap-vue/dist/bootstrap-vue.css',
+    { src: '~assets/scss/style.scss', lang: 'scss' },
+  ],
   /*
   ** Customize the progress bar color
   */
@@ -39,10 +46,7 @@ module.exports = {
     ]
   },
   plugins: [
-    {
-      src: '~/plugins/vue-chartjs',
-      ssr: true
-    },
+    '~/plugins/vue-chartjs',
     {
       src: '~/plugins/vue-perfect-scrollbar',
       ssr: false
