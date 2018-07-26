@@ -34,6 +34,10 @@ module.exports = {
         })
       }
     }
-  }
+  },
+  plugins: [
+    '~/plugins/vue-chartjs',
+    '~/plugins/vue-perfect-scrollbar'
+  ]
 }
 
