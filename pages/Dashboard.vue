@@ -162,7 +162,7 @@
               <div class="text-uppercase text-muted small">tweets</div>
             </div>
           </div>
-        </div>
+          </div>
       </b-col>
       <b-col sm="6" lg="3">
         <div class="brand-card">
@@ -456,13 +456,12 @@ import CardBarChartExample from './dashboard/CardBarChartExample'
 import MainChartExample from './dashboard/MainChartExample'
 import SocialBoxChartExample from './dashboard/SocialBoxChartExample'
 import CalloutChartExample from './dashboard/CalloutChartExample'
-// TODO: アンコメントすると'render function or template not defined in component: anonymous'エラーが出る
-//import { Callout } from '@coreui/vue'
+import { Callout } from '@coreui/vue'
 
 export default {
   name: 'dashboard',
   components: {
-//    Callout,
+    Callout,
     CardLine1ChartExample,
     CardLine2ChartExample,
     CardLine3ChartExample,
@@ -568,7 +567,6 @@ export default {
     }
   }
 }
-
 </script>
 
 <style>

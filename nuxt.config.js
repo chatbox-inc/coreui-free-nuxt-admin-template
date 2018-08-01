@@ -1,4 +1,5 @@
 module.exports = {
+  mode: "spa",
   /*
   ** Headers of the page
   */
@@ -14,11 +15,7 @@ module.exports = {
     ]
   },
   css: [
-    'node_modules/font-awesome/scss/font-awesome.scss',
-    'node_modules/simple-line-icons/scss/simple-line-icons.scss',
-    'node_modules/flag-icon-css/css/flag-icon.min.css',
-    'node_modules/bootstrap-vue/dist/bootstrap-vue.css',
-    { src: '~assets/scss/style.scss', lang: 'scss' },
+    "~assets/scss/coreui.scss",
   ],
   /*
   ** Customize the progress bar color
@@ -41,16 +38,9 @@ module.exports = {
         })
       }
     },
-    vendor: [
-      'vue-perfect-scrollbar'
-    ]
   },
-  plugins: [
-    '~/plugins/vue-chartjs',
-    {
-      src: '~/plugins/vue-perfect-scrollbar',
-      ssr: false
-    }
+  modules: [
+    ['bootstrap-vue/nuxt', { css: false }],
   ]
 }
 
