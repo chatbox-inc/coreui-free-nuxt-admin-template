@@ -1,23 +1,16 @@
-# coreui-free-nuxt-admin-template
+# CoreUI Nuxt - Free Bootstrap Admin Template 
 
-> Nuxt.js project
+### Check out our Vue Admin Templates and support CoreUI Development
 
-## Build Setup
+[![Bootstrap Admin Templates Bundle](https://genesisui.com/img/bundle2.png)](https://genesisui.com/bundle.html?support=1)
 
-``` bash
-# install dependencies
-$ npm install # Or yarn install
+[Check out Bootstrap Admin Templates Bundle](https://genesisui.com/bundle.html?support=1)
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+This is Nuxt.js version of our Bootstrap 4 admin template [CoreUI](https://github.com/coreui/coreui-free-bootstrap-admin-template).
 
-# build for production and launch server
-$ npm run build
-$ npm start
+All source files are from [coreui-free-vue-admin-template](https://github.com/coreui/coreui-free-vue-admin-template).
 
-# generate static project
-$ npm run generate
-```
+## Demo
 
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+A fully functional demo is available on [Netlify Hosting Here](https://coreui-free-nuxt-admin-template.netlify.com/dashboard)
 
